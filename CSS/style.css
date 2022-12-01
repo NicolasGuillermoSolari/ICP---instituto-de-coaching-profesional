@@ -30,7 +30,8 @@ img {
 
 /*Zona_blanca*/
 section {
-  padding-bottom: 1rem;
+  padding-bottom: 4rem;
+  width: 100%;
 }
 .zona_blanca {
   background-color: aliceblue;
@@ -210,7 +211,7 @@ a:hover {
   margin: 0 auto;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 2rem;
   color: #c9c6c6;
 }
 .title_beneficios {
@@ -279,6 +280,29 @@ a:hover {
 h5 {
   padding: 5%;
 }
+/*rojotexto*/
+h3 {
+  text-align: left;
+  text-transform: capitalize;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.rojo__1 {
+  text-align: left;
+  text-transform: capitalize;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.rojo__2 > p {
+  text-align: left;
+
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
 /*label*/
 .nav_link {
   background: #336699;
@@ -301,6 +325,8 @@ main {
 }
 footer {
   grid-area: footer;
+  padding-top: 3rem;
+  height: 14rem;
 }
 /*Footer_style*/
 .footer_intro {
@@ -360,43 +386,56 @@ footer {
   text-align: center;
   height: 1em;
 }
+.footer_copyright > p > a {
+  font-size: x-small;
+  text-decoration: none;
+  color: #c9c6c6;
+}
 .este {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 100%;
+  width: 80%;
   margin: 0;
   max-width: 1320px;
+  margin-left: 10%;
 }
 .zon {
   text-align: center;
+  width: 100%;
 }
 .formacion {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: 100%;
+  text-align: center;
+  width: 80%;
   margin: 0;
   max-width: 1320px;
+  margin-left: 10%;
 }
 .container {
   border-width: 0;
   margin: 0;
-  width: 100%;
+  width: 80%;
   max-width: 2220px;
   padding: 3rem;
 }
 form {
   margin: 0;
   background-color: #cc3333;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 /*Beneficios*/
 .beneficios {
   background-color: #336699;
-  color: #c9c6c6;
+  color: white;
   padding: 10rem;
 }
 .intro_section_div {
   text-align: center;
   align-self: center;
+}
+.title_beneficios {
+  color: white;
 }
