@@ -8,7 +8,7 @@ body {
   font-family: "montserrat", sans-serif;
   margin: 0;
   display: grid;
-  grid-gap: 1rem;
+
   grid-template-rows: 1fr;
   min-height: 100vh;
   grid-template-columns: 1fr;
@@ -27,13 +27,11 @@ header {
 img {
   max-width: 100%;
 }
-.container {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1320px;
-  padding: 3rem;
-}
+
 /*Zona_blanca*/
+section {
+  padding-bottom: 1rem;
+}
 .zona_blanca {
   background-color: aliceblue;
   color: #676767;
@@ -212,36 +210,27 @@ a:hover {
   margin: 0 auto;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 1rem;
   color: #c9c6c6;
 }
 .title_beneficios {
   text-transform: capitalize;
   color: #eae2b7;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 0rem;
 }
 .nav_link_text {
-  font-weight: bold;
   font-weight: 400;
   text-align: center;
   align-items: center;
 }
-.intro_section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-
-  background-color: #cc3333;
-  color: white;
-  padding: 1rem;
-
-  width: 100%;
-  margin: 0 auto;
-  max-width: 1320px;
-  min-height: 133rem;
-  max-height: 29rem;
+.nav_link_text > img {
+  width: 2.5rem;
 }
+
 .box_contacto {
   display: grid;
   grid-gap: 0.5rem;
@@ -257,9 +246,9 @@ a:hover {
     "text_contacto text_contacto text_contacto text_contacto"
     "text_contacto text_contacto text_contacto text_contacto"
     "text_contacto text_contacto text_contacto text_contacto";
-  width: 90%;
-  margin: 0 auto;
-  max-width: 768px;
+  width: 100vh;
+  margin: 0 0 0 0;
+  max-width: 1400px;
 }
 .text_red {
   grid-area: text_red;
@@ -286,10 +275,7 @@ a:hover {
 .text_contacto {
   grid-area: text_contacto;
 }
-.intro_section_div > p {
-  padding: 5%;
-  overflow: auto;
-}
+
 h5 {
   padding: 5%;
 }
@@ -311,6 +297,7 @@ header {
 }
 main {
   grid-area: main;
+  margin: 0%;
 }
 footer {
   grid-area: footer;
@@ -377,25 +364,39 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   max-width: 1320px;
 }
 .zon {
-  align-items: center;
+  text-align: center;
 }
 .formacion {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   max-width: 1320px;
 }
-@media (min-width: 768px) {
-  .container {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1320px;
-  }
+.container {
+  border-width: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 2220px;
+  padding: 3rem;
+}
+form {
+  margin: 0;
+  background-color: #cc3333;
+}
+/*Beneficios*/
+.beneficios {
+  background-color: #336699;
+  color: #c9c6c6;
+  padding: 10rem;
+}
+.intro_section_div {
+  text-align: center;
+  align-self: center;
 }
