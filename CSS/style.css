@@ -327,7 +327,9 @@ footer {
   grid-area: footer;
   padding-top: 3rem;
   height: 14rem;
+  text-transform: capitalize;
 }
+
 /*Footer_style*/
 .footer_intro {
   text-transform: lowercase;
@@ -362,12 +364,14 @@ footer {
   font-weight: 100;
   font-size: small;
   height: 5em;
+  text-transform: capitalize;
 }
 .footer_text2 {
   grid-area: footer_text2;
   font-weight: 100;
   font-size: small;
   height: 5em;
+  text-transform: capitalize;
 }
 
 .footer_icons {
@@ -401,8 +405,8 @@ footer {
   margin-left: 10%;
 }
 .zon {
-  text-align: center;
-  width: 100%;
+  height: auto;
+  width: auto;
 }
 .formacion {
   display: flex;
